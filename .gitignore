@@ -1,0 +1,20 @@
+# Secretos y configuración local
+.env
+
+# Generados por Airflow en tiempo de ejecución
+logs/
+config/airflow.cfg
+
+# Datos que producen las tareas del pipeline
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema y editores
+.DS_Store
+.idea/
+.vscode/
